@@ -181,8 +181,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   angle: rotationAngle * (pi / 180),
                   child: Image.asset(
                     "assets/Fanta_All_Circle.png",
-                    height: 1255,
-                    width: 1338,
+                    height: height * 1.6,
+                    width: width * 3.1,
                     fit: BoxFit.cover,
                   ),
                 );
@@ -409,7 +409,7 @@ class _PageIndicator extends StatelessWidget {
               height: size,
               width: size,
               decoration: BoxDecoration(
-                color: Colors.white.withValues(alpha:opacity),
+                color: Colors.white.withValues(alpha: opacity),
                 shape: BoxShape.circle,
               ),
             );
